@@ -25,6 +25,7 @@ public class Moviesservice {
 	{
 	Set<Director> st=dr.findById(id);
 	movie.setDirectors(st);
+	System.out.println("hii");
 	   // movie.setDirectors(st);
 	return mv.save(movie);
 	
